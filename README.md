@@ -1,5 +1,10 @@
 # 2. kodutöö – kirjutamise mängu täiendamine
 
+Egert Klaamas
+
+Inimene sisestab nime, 10 sec jooksul peab ta kirjutama niipalju sõnu kui jaksab ning saadaval on ka darkmode, kus ekraanipilt muutub tumedaks. Peale igat mõngu näeb skoori ja võimalus alustada uuesti.
+
+
 Mängu eesmärk on võimalikult kiiresti ekraanile tekkivaid sõnu ära trükkida. Sõnad on võetud [Eesti Keele Instituudi lehelt](http://www.eki.ee/tarkvara/wordlist/) – [lemmad2013](http://www.eki.ee/tarkvara/wordlist/lemmad2013.txt). Aluseks tuleb võtta kood **[eesrakenduste-arendamine-2018k/klahvimine](https://github.com/eesrakenduste-arendamine-2018k/klahvimine)**. 
 
 ### Tähtpäev 26.03.2018 23:59
