@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sõnamäng</title>
+    <script src="javascript.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <main role="main">
+      <input type="button" class="goDark" onclick="chBackcolor()"></button>
+      <!-- button for the dark mode) -->
+	  <!-- Home -->
+      <section id="home-view">
+        <h1 class="gameCaption">Klahvimise mäng</h1>
+        <p class="gameIntro">Klahvimise mäng
+		<br>Mängu eesmärgiks on klahvida 10 sec jooksul niipalju sõnu kui jõuad<br>
+		Võid alustada millal soovid, soovi korral võid valida ka darkmode.</p>
+        <div class="nameInput">
+          <input type="text" name="textInput" id="textInput" cols="30" rows="3" placeholder="Sisesta enda nimi">
+          <button id="saveLocal">Alusta</button>
+        </div>  
+      </section>
+      <!-- Game page -->
+      <section id="game-view">
+        <h1 class="gameMotivate">Kiirusta!</h1>
+        <div class="currentScore"></div>
+        <canvas></canvas>
+      </section>
+
+      <!-- Score page -->
+      <section id="score-view">
+        <h1 class="yourScore">Sinu skoor</h1>
+        <div class="endScore"></div>
+        <h3 class="gameLeaderboard">Edetabel</h3>
+        <ol class="leaderboard"></ol>
+        <a href="index.html">Mängi uuesti</a>
+      </section>
+  
+      
+    
+    </main>
+  </body>
+</html>
