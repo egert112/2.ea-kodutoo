@@ -3,6 +3,7 @@
 Egert Klaamas
 
 Inimene sisestab nime, 10 sec jooksul peab ta kirjutama niipalju sõnu kui jaksab ning saadaval on ka darkmode, kus ekraanipilt muutub tumedaks. Peale igat mõngu näeb skoori ja võimalus alustada uuesti.
+Skeem: https://gyazo.com/fdd0e067449588f96ed1050eb5084a89
 
 
 Mängu eesmärk on võimalikult kiiresti ekraanile tekkivaid sõnu ära trükkida. Sõnad on võetud [Eesti Keele Instituudi lehelt](http://www.eki.ee/tarkvara/wordlist/) – [lemmad2013](http://www.eki.ee/tarkvara/wordlist/lemmad2013.txt). Aluseks tuleb võtta kood **[eesrakenduste-arendamine-2018k/klahvimine](https://github.com/eesrakenduste-arendamine-2018k/klahvimine)**. 
