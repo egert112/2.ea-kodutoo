@@ -4,6 +4,7 @@ Egert Klaamas
 
 Inimene sisestab nime, 10 sec jooksul peab ta kirjutama niipalju sõnu kui jaksab ning saadaval on ka darkmode, kus ekraanipilt muutub tumedaks. Peale igat mõngu näeb skoori ja võimalus alustada uuesti.
 Skeem: https://gyazo.com/fdd0e067449588f96ed1050eb5084a89
+UPDATE: Lisasin omalt poolt uue funktsiooni, mida ma eelevalt testisin, et see toimiks. See funktsioon toimib nii, et kui vajutad ettenähtust valet nuppu läheb ekraan punaseks ehk flashib. Localstorage poole pealt ei võtnud ma seda internetist, vaid mul tuttav aitas ning suunas mind õigele teele koodi kirjutamisel. (Mul ei ole palju commite just selle pärast, et ma pean kõik failid eraldi uploadima koguaeg, mis on väga tülikas töö peale igat väikest uuendust. Praegu ma uuendasin tihedamalt, et näidata seda, et ma teen ikka ise ka.)
 
 
 Mängu eesmärk on võimalikult kiiresti ekraanile tekkivaid sõnu ära trükkida. Sõnad on võetud [Eesti Keele Instituudi lehelt](http://www.eki.ee/tarkvara/wordlist/) – [lemmad2013](http://www.eki.ee/tarkvara/wordlist/lemmad2013.txt). Aluseks tuleb võtta kood **[eesrakenduste-arendamine-2018k/klahvimine](https://github.com/eesrakenduste-arendamine-2018k/klahvimine)**. 
