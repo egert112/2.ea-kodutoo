@@ -65,6 +65,31 @@ TYPER.prototype = {
     const wordFromArray = this.words[generatedWordLength][randomIndex]
     this.word = new Word(wordFromArray, this.canvas, this.ctx)
   },
+  //SELLE FUNKTSIOONI LISASIN ise juurde
+	flash: function() {
+		document.body.style.backgroundColor = 'rgb('+ 255 +','+ 0 +','+ 0 +')'
+		let r2 = 109;
+		let g2 = 160;
+		let b2 = 126;
+		setTimeout(function(){document.body.style.backgroundColor = 'rgb('+ r2 +','+g2 +','+ b2 +')'}, 300)
+	 },
+  
+    keyPressed: function (event) {
+      const letter = String.fromCharCode(event.which)
+      if (letter === this.word.left.charAt(0)) {
+        this.word.removeFirstLetter()
+        if (this.word.left.length === 0) {
+          this.guessedWords += 1
+          this.getScore()
+  
+          this.generateWord()
+        }
+        this.word.Draw()
+      //SIIA LISASIN ELSE
+      }else{
+        window.setTimeout(this.flash,10);
+      }
+    },
 
   keyPressed: function (event) {
     const letter = String.fromCharCode(event.which)
